@@ -7,4 +7,6 @@
     html5
     bootstrap
     SASS
+    </li>
+
 </ul>
