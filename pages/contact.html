@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/favicon-16x16.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><!-- ENCABEZADO -->
+        <nav class="header__nav"><!-- NAVEGACION -->
+            <img class="header__logo" src="../resources/favicon.ico" alt="">
+            <ul class="header__list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="houses.html">Houses</a></li>
+                <li><a href="campus.html">Campus</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- TITULO -->
+        <h1 class="contact__title">CONTACT</h1>
+        <!-- FORMULARIO -->
+        <form method="post">
+            <div class="form__item">
+            <label>Name</label> 
+            <input type="name">
+            </div>
+            <div class="form__item">
+            <label>Email</label>
+            <input type="email">
+            </div>
+            <label class="form__label">Leave Your Comment</label>
+            <div class="form__textarea">
+            <textarea name="Comments" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label class="form__label">House of Choice</label>
+                <select class="form__selection" name="Houses">
+                    <option value="G">Gryffindor</option>
+                    <option value="H">Hufflepuff</option>
+                    <option value="R">Ravenclaw</option>
+                    <option value="S">Slytherin</option>
+                </select>
+            <div>
+                <label class="form__label">Accept Terms</label>
+                <input type="checkbox" name="Accept codes and Terms" id="Accept Terms">
+            </div>
+            </div>
+            <input class="contact__buttons" type="submit" value="send">
+            <input class="contact__buttons" type="reset"value="clear"> 
+            
+            
+
+        </form>
+
+    </main>
+    <footer><!-- PIE DE PAGINA -->
+        <div class="footer__indice">
+            <h4 class="footer__nav">Navigation</h4>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/staff.html">Staff</a></li>
+                <li><a href="../pages/houses.html">Houses</a></li>
+                <li><a href="../pages/campus.html">Campus</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer__mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.017642047298!2d-0.12887986507929008!3d51.53123625166271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba3a5a1470b%3A0xd5656d630ccedd8c!2sKings%20Cross%20Station!5e0!3m2!1ses!2sar!4v1657087925385!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- ICONOS REDE SOCIALES -->
+        </div>
+        <div class="footer__redes">
+            <img class="footer__icons" src="../resources/instagram.png" alt="">
+            <img class="footer__icons" src="../resources/facebook.png" alt="">
+            <img class="footer__icons" src="../resources/twitter.png" alt="">
+        </div>
+        <span class="footer__rights">29295(C)All Rights Reserved since 2022</span>
+</body>
+</html>
