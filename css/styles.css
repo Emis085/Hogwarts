@@ -17,7 +17,8 @@ h2 {
 header{
     position: sticky;
     top: 0px;
-    background-color: burlywood;
+    background:linear-gradient(-45deg, #ebca14, #970e17, #000) 
+    
 }
 /*  LOGO Y NAVEGACION */
 .header__logo{
