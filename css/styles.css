@@ -17,7 +17,7 @@ h2 {
 header{
     position: sticky;
     top: 0px;
-    background:linear-gradient(-45deg, #ebca14, #970e17, #000) 
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
     
 }
 /*  LOGO Y NAVEGACION */
@@ -41,10 +41,14 @@ header{
     justify-content: flex-end;
     flex-grow: 1;
 }
+.ul__nav{
+    font-size: 24px;
+    text-decoration: rgb(250, 163, 180);
+}
 
 .header__list a{    
-    color: brown;
-    text-decoration: none;
+    color: rgb(248, 115, 115);
+    text-decoration: solid;
 }
 .header__list{ 
     color: rgb(255, 99, 8);
@@ -97,6 +101,9 @@ li{
     font-size: 22px;
     color: crimson;
     padding: 16px;
+}
+.index__carousel{
+    height: 700px;
 }
 
 .iframes{
