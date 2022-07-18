@@ -317,7 +317,7 @@ column-gap: 15px;
 }
 .houses__uniform{
     
-    width: 200px;
+    width: 170px;
     height: 200px;
 }
 .card__background{
@@ -433,6 +433,11 @@ a{
         display: flex;
         flex-direction: column;
 
+    }
+    .houses__uniform{
+    
+        width: 100px;
+        height: 100px;
     }
     /* campus */
     .campus__grid{
