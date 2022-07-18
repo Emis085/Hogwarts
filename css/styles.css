@@ -58,6 +58,15 @@ li{
     padding: 20px;
     display: inline;
 }
+.nav-item{
+
+} 
+.nav-item:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
 /* INDEX */
 
 .index__main{   
