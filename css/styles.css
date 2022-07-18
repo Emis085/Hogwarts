@@ -176,6 +176,10 @@ li{
     display: inline;
     padding: 0 16px;
 }
+.submit__button{
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
+
+}
 
 /* CAMPUS */
 
