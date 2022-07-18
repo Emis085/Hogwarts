@@ -70,13 +70,13 @@ li{
 /* INDEX */
 
 .index__main{   
-    background-color: black;
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
 }
 
 .main__title{ 
     text-align: center;
-    color: brown;
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    
     text-decoration: solid;
     text-decoration: underline;
 }
@@ -108,7 +108,7 @@ li{
 }
 .index__content{
     font-size: 22px;
-    color: crimson;
+    color: rgb(70, 0, 14);
     padding: 16px;
 }
 .index__carousel{
@@ -129,13 +129,14 @@ li{
 
 /* PAGINA STAFF */
 .staff__main{
-    background-color: black;
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
 }
 
 .staff__names{
     padding: 16px;
     text-decoration: solid;
-    color: brown;
+    color: rgb(0, 0, 0);
+    font-size: 34px;
 }
 
 .staff__img{   
@@ -147,29 +148,33 @@ li{
 
 .staff__lorem{
     padding: 16px;
-    color: crimson;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
 }
 
 .staff__footerrights{
     padding: 16px;
 }
 .lorem__text{  
-    color: crimson;
+    color: rgb(0, 0, 0);
     padding: 16px;
     text-align: center;
 }
 
 
 /*PAGINA CONTACTO  */
+.contact__body{
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
+}
 
 .contact__title{
-    color: brown;
-    background-color: burlywood;
+    color: rgb(0, 0, 0);
+    
     padding: 16px;
     
 }
 .form__item{
-    color: crimson;
+    color: rgb(0, 0, 0);
     padding: 16px;
 }
 .form__textarea{
@@ -258,12 +263,12 @@ column-gap: 15px;
     background-repeat: no-repeat;
 }
 .main__campus{
-    background-color: black;
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
 }
 
 /* HOUSES */
 .main__houses{
-    background-color: black;
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
 }
 
 .houses__grid{
@@ -306,9 +311,17 @@ column-gap: 15px;
 }
 
 .lorem__houses{
-    
+    font-size: 18px;
     padding: 16px;
-    color: crimson;
+    color: rgb(0, 0, 0);
+}
+.houses__uniform{
+    
+    width: 200px;
+    height: 200px;
+}
+.card__background{
+    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
 }
 
 
