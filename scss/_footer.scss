@@ -1,0 +1,55 @@
+footer{
+    display: grid;
+    grid-template-areas: "index map social"
+                        "index  map rights";
+    background-color: burlywood;
+    padding: 24px;
+}
+.footer{
+        &__indice{
+            grid-area: index;
+        }
+        &__mapa{
+            grid-area: map;
+            display: flex;
+            justify-content: center;
+            width: 400px;
+            height: 300px;
+        }
+        &__redes{
+            grid-area: social;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            
+        }
+        &__rights{
+            grid-area: rights;
+            display: flex;
+            justify-content: center;
+        }
+
+        &__indice ul li{
+            font-size: 16px;
+            text-decoration: none;
+            padding-bottom: 12px;
+            
+        }
+        &__icons{
+            width: 70px;
+            height: 70px;
+            padding: 12px;
+        }
+        &__nav{
+            color: brown;
+        }
+        &__list{
+            display: flex;
+            flex-direction: column;
+        }
+            
+        &__a{
+            display: flex;
+            color: brown;
+        }
+}
