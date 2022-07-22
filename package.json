@@ -1,0 +1,26 @@
+{
+  "name": "hog",
+  "version": "1.0.0",
+  "description": "<h1>Escuela Hogwarts</h1>\r <p>Esta es una pagina dedicada a la escuela Hogwarts para el proyecto final de Coderhouse<p>\r <h2>Tecnologias Usadas</h2>\r <ul>\r <li>CSS3</li>\r <li>html5</li>\r <li>bootstrap</li>\r <li>SASS</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emis085/Hogwarts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emis085/Hogwarts/issues"
+  },
+  "homepage": "https://github.com/Emis085/Hogwarts#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
