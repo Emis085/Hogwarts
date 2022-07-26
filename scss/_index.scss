@@ -1,0 +1,58 @@
+.index{
+    &__main{   
+        background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
+    }
+    
+    &__title{ 
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+        text-decoration: solid;
+        text-decoration: underline;
+    }
+    
+    &__grid{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "castle history";
+    }
+                            
+        .castle{
+            grid-area: castle;
+            column-gap: 1;
+    
+        }
+        .history{
+            grid-area: history;
+            column-gap: 1;
+        
+        }
+    &__img{
+        display: flex;
+        flex-wrap: wrap;
+        align-self: stretch;
+        width: 50vw;
+        height: 100vh; 
+        padding: 16px 0;
+        
+    }
+    &__content{
+        font-size: 22px;
+        color: rgb(70, 0, 14);
+        padding: 16px;
+    }
+    &__carousel{
+        height: 700px;
+    }
+    
+    &__iframes{
+        display: flex;
+        justify-content: center;
+    }
+    &__spotify{   
+        padding: 16px;
+        width: 100vw;
+        height: 100px;
+    }
+
+}

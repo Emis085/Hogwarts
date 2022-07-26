@@ -1,4 +1,5 @@
 @import"footer";
+@import"index";
 
 *{
     margin: 0px;
@@ -22,112 +23,25 @@ header{
     background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
     
 }
-/*  LOGO Y NAVEGACION */
-.header__logo{
-    width: 60px;
-    height: 60px;
-}
 
-.header__nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.header__list{ 
-    display: flex; 
-    list-style: none; 
-    padding: 0 16px;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-grow: 1;
-}
-.ul__nav{
-    font-size: 24px;
-    text-decoration: rgb(250, 163, 180);
-}
-
-.header__list a{    
-    color: rgb(248, 115, 115);
-    text-decoration: solid;
-}
-.header__list{ 
-    color: rgb(255, 99, 8);
-}
-
-li{
-    padding: 20px;
-    display: inline;
-}
-
-.nav-item:hover {
-    transform: scale(1.5);
+.header-item:hover {
+    transform: scale(1.2);
     transition: 1s;
 }
 
 
 /* INDEX */
 
-.index__main{   
-    background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
-}
 
-.main__title{ 
-    text-align: center;
-    color: rgb(0, 0, 0);
-    
-    text-decoration: solid;
-    text-decoration: underline;
-}
 
-.index__grid{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-areas: "castle history";
-}
-                        
-.castle{
-    grid-area: castle;
-    column-gap: 1;
-
-}
-.history{
-    grid-area: history;
-    column-gap: 1;
-
-}
-.index__img{
-    display: flex;
-    flex-wrap: wrap;
-    align-self: stretch;
-    width: 50vw;
-    height: 100vh; 
-    padding: 16px 0;
-    
-}
-.index__content{
-    font-size: 22px;
-    color: rgb(70, 0, 14);
-    padding: 16px;
-}
-.index__carousel{
-    height: 700px;
-}
-
-.iframes{
-    display: flex;
-    justify-content: center;
-}
-.iframes__spotify{   
-    padding: 16px;
-    width: 100vw;
-    height: 100px;
-}
 
 
 
 /* PAGINA STAFF */
+.staff__title{ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 .staff__main{
     background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
 }
@@ -163,6 +77,10 @@ li{
 
 
 /*PAGINA CONTACTO  */
+.contact__title{ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 .contact__body{
     background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
 }
@@ -196,6 +114,10 @@ li{
 }
 
 /* CAMPUS */
+.campus__title{ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 
 .campus__img{
     width: 65%;
@@ -270,6 +192,10 @@ column-gap: 15px;
 .main__houses{
     background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
 }
+.houses__title{ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 
 .houses__grid{
     display: grid;
@@ -324,9 +250,6 @@ column-gap: 15px;
     background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36)) 
 }
 
-
-
-/* FOOTER */
 
 /* Media Celular */
 
