@@ -1,7 +1,40 @@
 footer {
+  display: grid;
+  grid-template-areas: "index map social" "index  map rights";
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424);
   padding: 24px;
   text-decoration: black; }
+  footer .footer__mapa {
+    grid-area: map;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 300px; }
+  footer .footer__redes {
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  footer .footer__rights {
+    grid-area: rights;
+    display: flex;
+    justify-content: center; }
+  footer .footer__indice ul li {
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 12px; }
+  footer .footer__icons {
+    width: 70px;
+    height: 70px;
+    padding: 12px; }
+  footer .footer__nav {
+    color: brown; }
+  footer .footer__list {
+    display: flex;
+    flex-direction: column; }
+  footer a {
+    display: flex;
+    color: brown; }
 
 .index__main {
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
@@ -402,9 +435,8 @@ h2 {
     background-color: burlywood;
     padding: 0; }
   .footer__mapa {
-    width: 100vw;
+    width: 90vw;
     display: flex;
-    flex-wrap: wrap;
     align-self: center;
     padding: 0; }
   .footer__list {
