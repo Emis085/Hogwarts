@@ -4,12 +4,6 @@ footer {
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424);
   padding: 24px;
   text-decoration: black; }
-  footer .footer__mapa {
-    grid-area: map;
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    height: 300px; }
   footer .footer__redes {
     grid-area: social;
     display: flex;
@@ -28,13 +22,14 @@ footer {
     height: 70px;
     padding: 12px; }
   footer .footer__nav {
-    color: brown; }
+    color: black; }
   footer .footer__list {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    list-style: none; }
   footer a {
     display: flex;
-    color: brown; }
+    color: black; }
 
 .index__main {
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
@@ -433,11 +428,6 @@ h2 {
     display: grid;
     grid-template-areas: "index" "map"   "social" "rights";
     background-color: burlywood;
-    padding: 0; }
-  .footer__mapa {
-    width: 90vw;
-    display: flex;
-    align-self: center;
     padding: 0; }
   .footer__list {
     display: flex;

@@ -9,13 +9,7 @@
     
     .footer{
         
-        &__mapa{
-            grid-area: map;
-            display: flex;
-            justify-content: center;
-            width: 400px;
-            height: 300px;
-        }
+        
         &__redes{
             grid-area: social;
             display: flex;
@@ -41,15 +35,17 @@
             padding: 12px;
         }
         &__nav{
-            color: brown;
+            color: rgb(0, 0, 0);
         }
         &__list{
             display: flex;
-            flex-direction: column;}
+            flex-direction: column;
+            list-style: none;
+        }
         }
             
         a{
             display: flex;
-            color: brown;
+            color: rgb(0, 0, 0);
         }
 }
