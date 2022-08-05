@@ -113,6 +113,7 @@ header {
 .staff__footerrights {
   padding: 16px; }
 
+/* en caso que se cumpla la condicion */
 * {
   margin: 0px;
   padding: 0px; }
