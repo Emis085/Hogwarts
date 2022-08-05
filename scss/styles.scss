@@ -159,7 +159,6 @@ column-gap: 15px;
 .houses__grid{
     display: grid;
     width: 100vw;   
-    height: 100vh;
     grid-template-areas:"gryffindor hufflepuff ravenclaw slytherin"
                         "gryffindor-text hufflepuff-text ravenclaw-text slytherin-text";
     column-gap: 15px;
