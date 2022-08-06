@@ -103,7 +103,8 @@ header {
 .staff__img {
   width: 300px;
   height: 300px;
-  padding: 16px; }
+  padding: 16px;
+  align-self: center; }
 
 .staff__lorem {
   padding: 16px;
@@ -112,6 +113,14 @@ header {
 
 .staff__footerrights {
   padding: 16px; }
+
+.staff__cards {
+  padding: 16px;
+  width: 75vw; }
+
+.staff__color {
+  position: static;
+  background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
 /* en caso que se cumpla la condicion */
 * {
@@ -124,12 +133,6 @@ body {
 h2 {
   color: blueviolet; }
 
-/* PAGINA STAFF */
-.lorem__text {
-  color: black;
-  padding: 16px;
-  text-align: center; }
-
 /*PAGINA CONTACTO  */
 .contact__title {
   text-align: center;
@@ -140,6 +143,11 @@ h2 {
 
 .contact__title {
   color: black;
+  padding: 16px; }
+
+.contact__text {
+  color: black;
+  align-self: center;
   padding: 16px; }
 
 .form__item {

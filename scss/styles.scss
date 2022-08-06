@@ -26,13 +26,9 @@ h2 {
 
 
 
-/* PAGINA STAFF */
 
-.lorem__text{  
-    color: rgb(0, 0, 0);
-    padding: 16px;
-    text-align: center;
-}
+
+
 
 
 /*PAGINA CONTACTO  */
@@ -49,6 +45,11 @@ h2 {
     
     padding: 16px;
     
+}
+.contact__text{
+    color: black;
+    align-self: center;
+    padding: 16px;
 }
 .form__item{
     color: rgb(0, 0, 0);

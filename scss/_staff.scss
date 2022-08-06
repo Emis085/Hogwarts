@@ -18,6 +18,7 @@
         width: 300px;
         height: 300px;
         padding: 16px;
+        align-self: center;
 
     }
 
@@ -29,5 +30,14 @@
 
     &__footerrights{
         padding: 16px;
+    }
+    &__cards{
+        padding: 16px;
+        width: 75vw;
+        
+    }
+    &__color{
+        position: static;
+        background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
     }
 }
