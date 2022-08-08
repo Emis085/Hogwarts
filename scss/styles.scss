@@ -225,23 +225,17 @@ column-gap: 15px;
         flex-direction: column;
 
     }
-    
-    .index__grid{
-        display: grid;
-        grid-template-areas: "castle"
-                            "history";
-    }
     .index__img{
+        height: auto;
+        width: auto;
+    }
+    
+    
+    .index__carousel{
         width: 100vw;
         height: auto;
-    }
-    .index__content{
-        display: flex;
-        flex-direction: column;
-        
-        
-
-    }
+        position: relative;
+}
     /* houses */
     .houses__grid{
         display: grid;
@@ -368,8 +362,13 @@ column-gap: 15px;
                             "history";
     }
     .index__img{
+        height: auto;
+        width: auto;
+    }
+    .index__carousel{
         width: 100vw;
         height: auto;
+        position: relative;
     }
     .header__nav{
         align-items: center;

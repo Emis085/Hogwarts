@@ -40,34 +40,14 @@ footer {
   text-decoration: solid;
   text-decoration: underline; }
 
-.index__grid {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: "castle history"; }
+.index__carousel {
+  position: static; }
 
-.index .castle {
-  grid-area: castle;
-  column-gap: 1; }
-
-.index .history {
-  grid-area: history;
-  column-gap: 1; }
+.index__cap {
+  position: static; }
 
 .index__img {
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  width: 50vw;
-  height: 100vh;
-  padding: 16px; }
-
-.index__content {
-  font-size: 22px;
-  color: #46000e;
-  padding: 16px; }
-
-.index__carousel {
-  height: 700px; }
+  height: 100vh; }
 
 .index__iframes {
   display: flex;
@@ -302,15 +282,13 @@ h2 {
     flex-direction: column; }
   .header__list {
     flex-direction: column; }
-  .index__grid {
-    display: grid;
-    grid-template-areas: "castle" "history"; }
   .index__img {
+    height: auto;
+    width: auto; }
+  .index__carousel {
     width: 100vw;
-    height: auto; }
-  .index__content {
-    display: flex;
-    flex-direction: column; }
+    height: auto;
+    position: relative; }
   /* houses */
   .houses__grid {
     display: grid;
@@ -387,8 +365,12 @@ h2 {
     display: grid;
     grid-template-areas: "castle" "history"; }
   .index__img {
+    height: auto;
+    width: auto; }
+  .index__carousel {
     width: 100vw;
-    height: auto; }
+    height: auto;
+    position: relative; }
   .header__nav {
     align-items: center;
     flex-direction: column; }
