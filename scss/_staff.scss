@@ -4,7 +4,7 @@
         color: rgb(0, 0, 0);
     }
     &__main{
-        background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);
     }
 
     &__names{
@@ -39,6 +39,6 @@
     }
     &__color{
         position: static;
-        background:linear-gradient(-45deg, #ebca14, #f3e8e9, rgb(160, 36, 36));
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);
     }
 }

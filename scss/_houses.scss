@@ -1,0 +1,54 @@
+.houses{
+    &__main{
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario) 
+    }
+    &__title{ 
+        text-align: center;
+        color:$color-texto;
+    }
+
+    &__grid{
+        display: grid;
+        width: 100vw;   
+        grid-template-areas:"gryffindor hufflepuff ravenclaw slytherin"
+                            "gryffindor-text hufflepuff-text ravenclaw-text slytherin-text";
+        column-gap: 15px;
+
+        .gryffindor{
+            grid-area: gryffindor;
+        }
+        .hufflepuff{
+            grid-area: hufflepuff;
+        }
+        .ravenclaw{
+            grid-area: ravenclaw;
+        }
+        .slytherin{
+            grid-area: slytherin;
+
+        }
+        .gryffindor-text{
+            grid-area: gryffindor-text;
+        }
+        .hufflepuff-text{
+            grid-area: hufflepuff-text;
+        }
+        .ravenclaw-text{
+            grid-area: ravenclaw-text;
+        }
+        .slytherin-text{
+            grid-area: slytherin-text;
+        }
+    }
+    &__logo{
+        width: 250px;
+        height: 250px;
+    }
+
+    &__text{
+        font-size: 18px;
+        padding: 16px;
+        color:$color-texto;
+    }
+    
+}

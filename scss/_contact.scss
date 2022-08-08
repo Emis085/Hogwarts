@@ -1,0 +1,22 @@
+.contact{
+    &__title{ 
+        text-align: center;
+        color:$color-texto;
+    }
+    &__body{
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);
+    }
+    
+    &__title{
+        color: $color-texto;
+        
+        padding: 16px;
+        
+    }
+    &__text{
+        color:$color-texto;
+        align-self: center;
+        padding: 16px;
+    }
+    
+}

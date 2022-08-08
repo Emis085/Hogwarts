@@ -1,0 +1,269 @@
+/* Media Celular */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    header{
+        position: static;
+        
+    }
+    .header__nav{
+        align-items: center;
+        flex-direction: column;
+    }
+    .header__list{ 
+        flex-direction: column;
+
+    }
+    .index__img{
+        height: auto;
+        width: auto;
+    }
+    
+    
+    .index__carousel{
+        width: 100vw;
+        height: auto;
+        position: relative;
+}
+    /* houses */
+    .houses__grid{
+        display: grid;
+        justify-items: center;
+        flex-wrap: wrap;
+        height: auto;
+        grid-template-areas:"gryffindor" 
+                            "gryffindor-text"
+                            "hufflepuff"
+                            "hufflepuff-text"
+                            "ravenclaw" 
+                            "ravenclaw-text" 
+                            "slytherin"
+                            "slytherin-text";
+    }
+    .lorem__houses{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .houses__uniform{
+    
+        width: 100px;
+        height: 100px;
+    }
+    /* campus */
+    .campus__grid{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7,1fr);
+        grid-template-areas: "divination"
+                            "herbology" 
+                            "potions"
+                            "greathall"
+                            "stairs"
+                            "paints"
+                            "defence";
+        }
+        .divination{
+            width: 100vw;
+            height: auto;
+        }
+        .herbology{
+            width: 100vw;
+            height: auto;
+            
+        }
+        .potions{
+            width: 100vw;
+            height: auto;
+        }
+        .greathall{
+            width: 100vw;
+            height: auto;
+        }
+        .stairs{
+            width: 100vw;
+            height: auto;
+        }
+        .paints{
+            width: 100vw;
+            height: auto;
+        }
+        .defence{
+            width: 100vw;
+            height: auto;
+        }
+        
+        
+    
+    
+    footer{
+        display: grid;
+        grid-template-areas: "index"
+                            "map"  
+                            "social"
+                            "rights";
+        
+        background-color: burlywood;
+        padding: 0;
+    }
+    .footer__mapa{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        padding: 16px;
+    }
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__redes{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer__rights{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+}
+/* Media Tablet */
+@media (min-width: 576px) and (max-width: 992px){
+    header{
+        position: static;
+        
+    }
+
+    .index__grid{
+        display: grid;
+        grid-template-areas: "castle"
+                            "history";
+    }
+    .index__img{
+        height: auto;
+        width: auto;
+    }
+    .index__carousel{
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+    .header__nav{
+        align-items: center;
+        flex-direction: column;
+    }
+    .header__list{ 
+        flex-direction: column;
+
+    }
+
+    /* houses */
+    .houses__grid{
+        display: grid;
+        justify-items: center;
+        flex-wrap: wrap;
+        height: auto;
+        grid-template-areas:"gryffindor" 
+                            "gryffindor-text"
+                            "hufflepuff"
+                            "hufflepuff-text"
+                            "ravenclaw" 
+                            "ravenclaw-text" 
+                            "slytherin"
+                            "slytherin-text";
+    }
+    .lorem__houses{
+        display: flex;
+        flex-direction: column;
+
+    }
+    /* campus */
+    .campus__grid{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7,1fr);
+        grid-template-areas: "divination"
+                            "herbology" 
+                            "potions"
+                            "greathall"
+                            "stairs"
+                            "paints"
+                            "defence";
+        }
+        .divination{
+            width: 100vw;
+            height: auto;
+        }
+        .herbology{
+            width: 100vw;
+            height: auto;
+            
+        }
+        .potions{
+            width: 100vw;
+            height: auto;
+        }
+        .greathall{
+            width: 100vw;
+            height: auto;
+        }
+        .stairs{
+            width: 100vw;
+            height: auto;
+        }
+        .paints{
+            width: 100vw;
+            height: auto;
+        }
+        .defence{
+            width: 100vw;
+            height: auto;
+        }
+
+    footer{
+        display: grid;
+        grid-template-areas: "index"
+                            "map"  
+                            "social"
+                            "rights";
+        
+        background-color: burlywood;
+        padding: 0;
+    }
+    
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__redes{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer__rights{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+}
