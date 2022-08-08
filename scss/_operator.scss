@@ -5,3 +5,35 @@
     /* en caso de que no se de la condicion */
 
 }
+/* map = colecciond evariables (clave-valor) */
+$redes:(
+    twitter: rgb(85, 193, 255),
+    facebook: blue,
+    instagram: rgb(247, 56, 189)
+);
+/* each = cadad uno ded los elementos */
+@each $name, $color in $redes{
+    .color-#{$name}{
+        background-color: #{$color};
+    }
+
+}
+$titulos:(
+    h1:3rem,
+    h2:2rem,
+    h3:1rem
+);
+@each $title, $size in $titulos{
+
+}
+
+$imagenes:(
+    campus: url('../resources/campus\ hog.jpg'),
+    staff: url('../resources/Fillius\ Flitwick.jpg'),
+);
+/* EXTEND */
+.background-centrado{
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}

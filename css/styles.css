@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/* colores */
+/* tamaño letra */
+/* rem em  <1rem=16px> */
 footer {
   display: grid;
   grid-template-areas: "index map social" "index  map rights";
@@ -77,46 +81,25 @@ footer {
     column-gap: 15px; }
     .campus__grid .divination {
       grid-area: divination;
-      background-image: url(../resources/divination.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/divination.jpg); }
     .campus__grid .herbology {
       grid-area: herbology;
-      background-image: url(../resources/Herbology.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/Herbology.jpg); }
     .campus__grid .potions {
       grid-area: potions;
-      background-image: url(../resources/potions.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/potions.jpg); }
     .campus__grid .greathall {
       grid-area: greathall;
-      background-image: url(../resources/great-hall-dos.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/great-hall-dos.jpg); }
     .campus__grid .stairs {
       grid-area: stairs;
-      background-image: url(../resources/stairs.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/stairs.jpg); }
     .campus__grid .paints {
       grid-area: paints;
-      background-image: url(../resources/paints.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/paints.jpg); }
     .campus__grid .defence {
       grid-area: defence;
-      background-image: url(../resources/defence.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../resources/defence.jpg); }
   .campus__main {
     background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
@@ -219,6 +202,23 @@ header {
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
 /* en caso que se cumpla la condicion */
+/* map = colecciond evariables (clave-valor) */
+/* each = cadad uno ded los elementos */
+.color-twitter {
+  background-color: #55c1ff; }
+
+.color-facebook {
+  background-color: blue; }
+
+.color-instagram {
+  background-color: #f738bd; }
+
+/* EXTEND */
+.background-centrado, .campus__grid .divination, .campus__grid .herbology, .campus__grid .potions, .campus__grid .greathall, .campus__grid .stairs, .campus__grid .paints, .campus__grid .defence {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /* Media Celular */
 @media (min-width: 320px) and (max-width: 575px) {
   header {

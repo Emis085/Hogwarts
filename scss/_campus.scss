@@ -21,54 +21,47 @@ row-gap: 15px;
 column-gap: 15px;
 
     .divination{
+        @extend .background-centrado;
         grid-area: divination;
         background-image: url(../resources/divination.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
         
     }
     .herbology{
+        @extend .background-centrado;
         grid-area: herbology;
         background-image: url(../resources/Herbology.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
     }
     .potions{
+        @extend .background-centrado;
         grid-area: potions;
         background-image: url(../resources/potions.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
     }
     .greathall{
+        @extend .background-centrado;
         grid-area: greathall;
         background-image: url(../resources/great-hall-dos.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
     }
     .stairs{
+        @extend .background-centrado;
         grid-area: stairs;
         background-image: url(../resources/stairs.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
     }
     .paints{
+        @extend .background-centrado;
         grid-area: paints;
         background-image: url(../resources/paints.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
     }
     .defence{
+        @extend .background-centrado;
         grid-area: defence;
         background-image: url(../resources/defence.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
     }
 }
 &__main{
