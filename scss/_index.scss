@@ -1,6 +1,15 @@
 .index{
+    &__body{
+        display: flex;
+        flex-direction: column;
+        
+        min-height: 100vh;
+
+    }
+
     &__main{   
-        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario) 
+        flex:1;
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario) ;
     }
     
     &__title{ 
@@ -10,19 +19,6 @@
         text-decoration: solid;
         text-decoration: underline;
     }
-    
-    
-    &__carousel{
-        
-        position: static;
-    }
-    &__cap{
-        position: static;
-    }
-    &__img{
-        height: 100vh;
-    }
-    
     
     &__iframes{
         display: flex;

@@ -26,32 +26,29 @@ footer {
     height: 70px;
     padding: 12px; }
   footer .footer__nav {
-    color: 0, 0, 0; }
+    color: black; }
   footer .footer__list {
     display: flex;
     flex-direction: column;
     list-style: none;
-    color: 0, 0, 0; }
+    color: black; }
   footer .footer__link {
-    color: 0, 0, 0; }
+    color: black; }
+
+.index__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 .index__main {
+  flex: 1;
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
 .index__title {
   text-align: center;
-  color: 0, 0, 0;
+  color: black;
   text-decoration: solid;
   text-decoration: underline; }
-
-.index__carousel {
-  position: static; }
-
-.index__cap {
-  position: static; }
-
-.index__img {
-  height: 100vh; }
 
 .index__iframes {
   display: flex;
@@ -66,7 +63,7 @@ footer {
   /* CAMPUS */ }
   .campus__title {
     text-align: center;
-    color: 0, 0, 0; }
+    color: black; }
   .campus__img {
     width: 65%; }
   .campus__grid {
@@ -112,28 +109,37 @@ header {
   transform: scale(1.2);
   transition: 1s; }
 
+.contact__main {
+  flex: 1; }
+
 .contact__title {
   text-align: center;
-  color: 0, 0, 0; }
+  color: black; }
 
 .contact__body {
-  background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424);
+  min-height: 100vh; }
 
 .contact__title {
-  color: 0, 0, 0;
+  color: black;
   padding: 16px; }
 
 .contact__text {
-  color: 0, 0, 0;
+  color: black;
   align-self: center;
   padding: 16px; }
+
+.contact__button {
+  background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
 .houses__main {
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
 .houses__title {
   text-align: center;
-  color: 0, 0, 0; }
+  color: black; }
 
 .houses__grid {
   display: grid;
@@ -164,7 +170,7 @@ header {
 .houses__text {
   font-size: 18px;
   padding: 16px;
-  color: 0, 0, 0; }
+  color: black; }
 
 .staff__title {
   text-align: center;
@@ -296,7 +302,7 @@ header {
     align-items: center; }
   .footer__redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: inline;
     justify-content: center;
     align-items: center; }
   .footer__rights {
@@ -307,9 +313,6 @@ header {
 @media (min-width: 576px) and (max-width: 992px) {
   header {
     position: static; }
-  .index__grid {
-    display: grid;
-    grid-template-areas: "castle" "history"; }
   .index__img {
     height: auto;
     width: auto; }
@@ -375,7 +378,7 @@ header {
     align-items: center; }
   .footer__redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: inline;
     justify-content: center;
     align-items: center; }
   .footer__rights {

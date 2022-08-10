@@ -125,7 +125,7 @@
 .footer__redes{
     
     display: flex;
-    flex-direction: column;
+    flex-direction: inline;
     justify-content: center;
     align-items: center;
     
@@ -144,11 +144,7 @@
         
     }
 
-    .index__grid{
-        display: grid;
-        grid-template-areas: "castle"
-                            "history";
-    }
+    
     .index__img{
         height: auto;
         width: auto;
@@ -255,7 +251,7 @@
 .footer__redes{
     
     display: flex;
-    flex-direction: column;
+    flex-direction: inline;
     justify-content: center;
     align-items: center;
     
