@@ -1,6 +1,8 @@
 .houses{
     &__main{
-        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario) 
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);
+        
+        
     }
     &__title{ 
         text-align: center;

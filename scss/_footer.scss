@@ -1,52 +1,7 @@
 
     footer{
-        display: grid;
-        grid-template-areas: "index map social"
-                            "index  map rights";
-        background:linear-gradient(-45deg,  $color-primario, $color-secundario, $color-terceario);
-        padding: 24px;
-        text-decoration:black;
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);;
+        
     
-    .footer{
-        
-        
-        &__redes{
-            grid-area: social;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-        }
-        &__rights{
-            grid-area: rights;
-            display: flex;
-            justify-content: center;
-        }
-        
-        &__indice ul li{
-            font-size: 16px;
-            text-decoration: none;
-            padding-bottom: 12px;
-            
-        }
-        &__icons{
-            width: 70px;
-            height: 70px;
-            padding: 12px;
-        }
-        &__nav{
-            color:$color-texto;
-        }
-        &__list{
-            display: flex;
-            flex-direction: column;
-            list-style: none;
-            color: $color-texto;
-        }
-        &__link{
-            color: $color-texto;
-        }
-            
-        
-    }
+    
 }
