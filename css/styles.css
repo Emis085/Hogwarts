@@ -50,6 +50,9 @@ footer {
   text-decoration: solid;
   text-decoration: underline; }
 
+.index__carousel {
+  position: static; }
+
 .index__iframes {
   display: flex;
   justify-content: center; }

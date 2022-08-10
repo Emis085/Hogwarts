@@ -19,6 +19,9 @@
         text-decoration: solid;
         text-decoration: underline;
     }
+    &__carousel{
+        position: static;
+    }
     
     &__iframes{
         display: flex;
