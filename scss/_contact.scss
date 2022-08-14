@@ -26,11 +26,28 @@
         display: flex;
         text-align: center;
         padding: 16px;
-        font-size: 18px;
+        font-size: 24px;
     }
     &__button{
         background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);
 
     }
-    
+    &__img{
+        justify-content: stretch;
+        width: 250px;
+        height: 300px;
+        padding: 16px;
+        align-self: center;
+
+    }
+    &__cards{
+        padding: 16px;
+        width: 75vw;
+        position: static;
+        
+    }
+    &__color{
+        position: static;
+        background:linear-gradient(-45deg, $color-primario, $color-secundario, $color-terceario);
+    }
 }

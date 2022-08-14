@@ -102,9 +102,25 @@ header {
   display: flex;
   text-align: center;
   padding: 16px;
-  font-size: 18px; }
+  font-size: 24px; }
 
 .contact__button {
+  background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
+
+.contact__img {
+  justify-content: stretch;
+  width: 250px;
+  height: 300px;
+  padding: 16px;
+  align-self: center; }
+
+.contact__cards {
+  padding: 16px;
+  width: 75vw;
+  position: static; }
+
+.contact__color {
+  position: static;
   background: linear-gradient(-45deg, #ebca14, #f3e8e9, #a02424); }
 
 .houses__main {
@@ -137,11 +153,12 @@ header {
     grid-area: slytherin-text; }
 
 .houses__logo {
+  align-self: center;
   width: 250px;
   height: 250px; }
 
 .houses__text {
-  font-size: 18px;
+  font-size: 24px;
   padding: 16px;
   color: black; }
 
@@ -254,7 +271,10 @@ header {
     height: auto; }
   .defence {
     width: 100vw;
-    height: auto; } }
+    height: auto; }
+  /* STAFF */
+  .contact__img {
+    width: 200px; } }
 
 /* Media Tablet */
 @media (min-width: 576px) and (max-width: 992px) {
@@ -309,7 +329,10 @@ header {
     height: auto; }
   .defence {
     width: 100vw;
-    height: auto; } }
+    height: auto; }
+  /* STAFF */
+  .contact__img {
+    width: 200px; } }
 
 * {
   margin: 0px;

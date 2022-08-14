@@ -43,12 +43,13 @@
         }
     }
     &__logo{
+        align-self: center;
         width: 250px;
         height: 250px;
     }
 
     &__text{
-        font-size: 18px;
+        font-size: 24px;
         padding: 16px;
         color:$color-texto;
     }
